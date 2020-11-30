@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1300px;
+    height: 100vh;
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.container{
+    max-width: 100%;
+    padding-left: 50px;
+    font-size: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* ----------------TITLE-------------------- */
+.title{
+    background-color: white;
+    height: 135px;
+    position: relative;
+}
+.logo-title{
+    position: relative;
+    left: 1%;
+    width: 8%;
+    float: left;
+}
+
+.pllogo{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.list-title{
+    background-color: #e74c3c;
+    height: 40%;
+}
+.list-title>ul>li{
+    font-size: 50%;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 60px; 
+    background-color: #e74c3c;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b33939;
+    transition: 0.5s;
+}
+/* -------------------HEADER---------------- */
+
+.header{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.match{
+    width: 70%;
+}
+
+.matches{
+    display: flex;
+    text-align: center;
+}
+.matches>ul>li{
+    list-style: none;
+}
+
+.matches ul li:hover img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/* -----------------------CONTENT-------------------- */
+
+.content-top{
+    background-color: white;
+}
+
+
+
+
+
+
+
+
