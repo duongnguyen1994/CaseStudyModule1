@@ -89,7 +89,7 @@ a:hover{
 }
 
 /* -----------------------CONTENT-------------------- */
-
+/* ------------------------CONTENT TOP--------------- */
 .content-top{
     background-color: white;
     display: flex;
@@ -107,16 +107,16 @@ a:hover{
     padding-top: 30px;
 }
 .news>a{
-    color: black;
+    color: #e55039;
 }
 
 .news>a:hover{
-    color: red;
+    color:#b71540;
 }
 
 #news{
     font-size: 25px;
-    color: #e74c3c;
+    color: #e55039;
     font-weight: bold;
 }
 
@@ -151,8 +151,84 @@ tbody>tr>th{
     text-align: left ;
 }
 
+/* ------------------CONTENT MID---------------- */
 
+.tatic{
+    display: inline-block;
+    position: relative;
+}
 
+.player{
+    width: 60px;
+    height: 70px;
+    border-radius: 50%;
+}
+/* ---------------TEAM------------- */
+#alison{
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+}
+
+#vandijk{
+    position: absolute;
+    bottom: 20%;
+    right: 30%;
+}
+
+#matip{
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
+}
+
+#robertson{
+    position: absolute;
+    bottom: 30%;
+    right: 5%
+}
+
+#trent{
+    position: absolute;
+    bottom: 30%;
+    left: 5%
+}
+
+#henderson{
+    position: absolute;
+    bottom: 40%;
+    right: 30%;
+}
+
+#wijnaldum{
+    position: absolute;
+    bottom: 55%;
+    right: 42%;
+}
+
+#fabio{
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+}
+
+#salah{
+    position: absolute;
+    bottom: 70%;
+    right: 5%
+}
+
+#mane{
+    position: absolute;
+    bottom: 70%;
+    left: 5%
+}
+
+#firmino{
+    position: absolute;
+    bottom: 75%;
+    right: 42%;
+}
 
 
 
