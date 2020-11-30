@@ -92,6 +92,63 @@ a:hover{
 
 .content-top{
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.newsphoto{
+    width: 430px;
+}
+
+.news{
+    width: 430px;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.news>a{
+    color: black;
+}
+
+.news>a:hover{
+    color: red;
+}
+
+#news{
+    font-size: 25px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.newsphoto:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+/* LEAGUE TABLE */
+table{
+    font-size: 30px;
+}
+caption{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+thead{
+    background: #e74c3c;
+}
+tr:nth-child(even){
+    background: gray;
+}
+td{
+    text-align: center;
+}
+
+thead>tr>th{
+    color: white;
+}
+
+tbody>tr>th{
+    font-weight: normal;
+    text-align: left ;
 }
 
 
