@@ -25,6 +25,20 @@ body{
     clear: both;
     display: table;
 }
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #b33939;
+    transition: 0.5s;
+}
 /* ----------------TITLE-------------------- */
 .title{
     background-color: white;
@@ -50,21 +64,11 @@ body{
 }
 .list-title>ul>li{
     font-size: 50%;
-    list-style: none;
     display: inline-block;
     padding: 10px 60px; 
     background-color: #e74c3c;
 }
 
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #b33939;
-    transition: 0.5s;
-}
 /* -------------------HEADER---------------- */
 
 .header{
@@ -152,107 +156,65 @@ tbody>tr>th{
 }
 
 /* ------------------CONTENT MID---------------- */
-
 .content-mid{
-    display: flex;
-    justify-content: space-between;
     background-color: white;
-    padding: 15px;
-}
-.tatic{
-    display: inline-block;
-    position: relative;
 }
 
-.player{
-    width: 60px;
-    height: 70px;
-    border-radius: 50%;
-}
-/* ---------------Tactic------------- */
-#alison{
-    position: absolute;
-    bottom: 0;
-    left: 42%;
+.team-title{
+    background-color: #e55039;
+    color: white;
+    font-size: 80%;
+    padding: 7px 0px 7px 20px;
 }
 
-#vandijk{
-    position: absolute;
-    bottom: 20%;
-    right: 30%;
+.team>div>hr{
+    border: 1px solid #e55039;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#matip{
-    position: absolute;
-    bottom: 20%;
-    left: 30%;
+.team>div{
+    padding: 30px;
 }
 
-#robertson{
-    position: absolute;
-    bottom: 30%;
-    right: 5%
+.info{
+    display: flex;   
+}
+.team>div>ul>li{
+    float: left;
 }
 
-#trent{
-    position: absolute;
-    bottom: 30%;
-    left: 5%
+.player>img{
+    width: 100px;
 }
 
-#henderson{
-    position: absolute;
-    bottom: 40%;
-    right: 30%;
+.numb{
+    background-color: #e55039;
+    height: 100px;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 35px;
 }
 
-#wijnaldum{
-    position: absolute;
-    bottom: 55%;
-    right: 42%;
-}
-
-#fabinho{
-    position: absolute;
-    bottom: 40%;
-    left: 30%;
-}
-
-#salah{
-    position: absolute;
-    bottom: 70%;
-    right: 5%
-}
-
-#mane{
-    position: absolute;
-    bottom: 70%;
-    left: 5%
-}
-
-#firmino{
-    position: absolute;
-    bottom: 75%;
-    right: 42%;
-}
-
-/* ------------------First Team-------------- */
-.sub-team>div>a{
-    font-size: 17px;
+.name{
+    background-color: whitesmoke;
+    width: 150px;
+    height: 100px;
+    font-size: 25px;
     color: black;
-}
-.team-staff>div>a{
-    font-size: 17px;
-    color: black;
+    padding-top: 10px;
 }
 
-.sub-team{
-    background-color: rgb(242, 242, 242);
-}
 
-.team-staff{
-    background-color: rgb(242, 242, 242);
-}
+
+
+
+
+
+
+
+
 
 
 
