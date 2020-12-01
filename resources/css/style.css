@@ -167,20 +167,24 @@ tbody>tr>th{
     padding: 7px 0px 7px 20px;
 }
 
-.team>div>hr{
+.team{
+    display: flex;
+}
+
+.first-team>div>hr{
     border: 1px solid #e55039;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.team>div{
+.goal, .def, .mid, .atk{
     padding: 30px;
 }
 
 .info{
     display: flex;   
 }
-.team>div>ul>li{
+.first-team>div>ul>li{
     float: left;
 }
 
@@ -201,10 +205,41 @@ tbody>tr>th{
     background-color: whitesmoke;
     width: 150px;
     height: 100px;
-    font-size: 25px;
+    font-size: 23px;
     color: black;
     padding-top: 10px;
+    padding-left: 5px;
 }
+
+.team-staff{
+    width: 400px;
+    padding-top: 35px;
+    padding-right: 30px;
+}
+
+.team-staff>h6{
+    color: white;
+    background-color: #e55039;
+    padding: 8px;
+    font-size: 23px;
+}
+
+.team-staff>div{
+    background-color: whitesmoke;
+}
+
+.team-staff>div>a{
+    display: block;
+    color: black;
+    font-size: 22px;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.team-staff>div>a:hover{
+    color: red;
+}
+
 
 
 
