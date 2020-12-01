@@ -94,7 +94,7 @@ a:hover{
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding-top: 15px;
+    padding: 10px;
 }
 
 .newsphoto{
@@ -103,11 +103,11 @@ a:hover{
 
 .news{
     width: 430px;
-    font-size: 25px;
-    padding-top: 30px;
+    font-size: 20px;
+    padding-top: 20px;
 }
 .news>a{
-    color: #e55039;
+    color: black;
 }
 
 .news>a:hover{
@@ -153,6 +153,12 @@ tbody>tr>th{
 
 /* ------------------CONTENT MID---------------- */
 
+.content-mid{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+}
 .tatic{
     display: inline-block;
     position: relative;
@@ -163,7 +169,7 @@ tbody>tr>th{
     height: 70px;
     border-radius: 50%;
 }
-/* ---------------TEAM------------- */
+/* ---------------Tactic------------- */
 #alison{
     position: absolute;
     bottom: 0;
@@ -206,7 +212,7 @@ tbody>tr>th{
     right: 42%;
 }
 
-#fabio{
+#fabinho{
     position: absolute;
     bottom: 40%;
     left: 30%;
@@ -228,6 +234,24 @@ tbody>tr>th{
     position: absolute;
     bottom: 75%;
     right: 42%;
+}
+
+/* ------------------First Team-------------- */
+.sub-team>div>a{
+    font-size: 17px;
+    color: black;
+}
+.team-staff>div>a{
+    font-size: 17px;
+    color: black;
+}
+
+.sub-team{
+    background-color: rgb(242, 242, 242);
+}
+
+.team-staff{
+    background-color: rgb(242, 242, 242);
 }
 
 
